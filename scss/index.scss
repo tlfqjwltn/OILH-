@@ -1,0 +1,32 @@
+// KJS 210406
+// JJH 210419
+
+@import '../form/css/reset.scss';
+@import '../form/css/variable.scss';
+
+#wrap{width:100vw;height:100vh;position:relative}
+// e.wrap
+
+#landing{width:100vw;height:100vh;background-image:url(../img/index/landing_bg-image.png);background-size:100% 100%;background-position:center}
+#landing_inner_box{width:$mainWid;height:50rem;background:#ffffff70;margin: 0 auto;display:block;position:absolute;top:50%;margin-top:-25rem;left:50%;margin-left:-42.19rem}
+.l_form>fieldset{
+    .l_form{text-align:center}
+    .l_tit{font-size:3.75rem;font-family:Melancoline;text-align:center;padding-top:10rem;color:$fontGray}
+    .l_txt{font-size:$fzTit24;color:$fontGray;text-align:center;margin-top:2rem;}
+    #year_box{width:12.5rem;height:3.125rem;position:absolute;left:25.63rem;top:23.13rem;border: 1px solid $navy;padding-left:0.625rem}
+    #month_box{width:8.438rem;height:3.125rem;position:absolute;left:40rem;top:23.13rem;border: 1px solid $navy;padding-left:0.625rem}
+    #day_box{width:8.438rem;height:3.125rem;position:absolute;left:50.63rem;top:23.13rem;border: 1px solid $navy;padding-left:0.625rem}
+    .l_check{display:flex;position:absolute;left:50%;margin-left:-14.5rem;top:30.44rem;font-size: 1.125rem;
+        #l_check_box{width: 0.9375rem;height: 0.9375rem;position:absolute;top:0.625rem;}
+        p{margin-left:1.875rem;color:$fontGray;line-height: 1.5rem;}
+    }
+    .landing_btn{display:block;width:11.25rem;height: 3.125rem;position: absolute;top: 39.38rem;left: 50%;margin-left: -5.625rem;border-radius: 0.3125rem;border: none;background: $navy;color: $fontWhite;font-size: 1.125rem;text-align: center;line-height: 3.125rem}
+}
+.alert{position:absolute;top:400px;left:50%;margin-left:-250px;width:500px;height:200px;text-align:center;background:#ffffffdd;border-radius:6px;border:2px solid $navy;
+    div{width:124px;height:57px;margin: 0 auto; margin-top:25px;background:url(../img/common/logo_navy_122x57.png);background-size:cover;}
+    p{margin-top:20px;font-size:$fzsubTit20;font-family:gmarketSansM;
+        .red{color:$red;font-weight:bold;}
+    }
+    .close_alert{display:block;width:11.25rem;height:3.125rem;margin:20px auto 0; border-radius:6px;border:none;background:$navy;color:$fontWhite;font-size:1.125rem;text-align:center;line-height:3.125rem}
+}
+// e.landing

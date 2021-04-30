@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="form/js/jquery-3.6.0.min.js"></script>
+    <script src="form/js/jquery-ui.js"></script>
+    <script src="form/js/jquery.easie.js"></script>
+    <script src="js/index.js"></script>
+    <link rel="stylesheet" href="css/index.css">
+    <title>OILH</title>
+</head>
+<body>
+    <div id="wrap">
+        <section id="landing">
+            <content id="landing_inner_box">
+                <form class="l_form">
+                    <fieldset>
+                        <legend class="l_tit">ARE YOU READY TO DRINK ?</legend>
+                        <p class="l_txt">
+                            이내 홈페이지는 만 19세 이상만 이용이 가능합니다.<br>
+                            생년월일을 입력해주세요.
+                        </p>
+                        <select name="year" id="year_box">
+                        </select>
+                        <!-- e.year_box -->
+                        <select name="month" id="month_box">
+                        </select>
+                        <!-- e._month_box -->
+                        <select name="day" id="day_box">
+                        </select>
+                        <!-- e.day_box -->
+                        <div class="l_check">
+                            <input type="checkbox" name="l_check" id="l_check_box">
+                            <p>
+                                재방문 시 편리한 방문을 위한 쿠키 정보 활용에 동의합니다. <br>
+                                쿠키 정보에 입력한 생년월일 정보는 저장되지 않습니다.
+                            </p>
+                        </div>
+                        <a href="#" class="landing_btn">입장하기</a>
+                    </fieldset>
+                </form>
+                <!-- e.l_form -->
+            </content>
+            <content class="alert year hidden">
+                <div id="logo_landing"></div>
+                <p><span class="red">생년월일</span> 을 입력해주세요.</p>
+                <a href="#" class="close_alert">닫기</a>
+            </content>
+            <content class="alert month hidden">
+                <div id="logo_landing"></div>
+                <p><span class="red">생월</span> 를 입력해주세요.</p>
+                <a href="#" class="close_alert">닫기</a>
+            </content>
+            <content class="alert day hidden">
+                <div id="logo_landing"></div>
+                <p><span class="red">생일</span> 를 입력해주세요.</p>
+                <a href="#" class="close_alert">닫기</a>
+            </content>
+            <content class="alert checkbox hidden">
+                <div id="logo_landing"></div>
+                <p>쿠키 정보 활용에<span class="red">동의</span> 해주세요.</p>
+                <a href="#" class="close_alert">닫기</a>
+            </content>
+            <content class="alert adult hidden">
+                <div id="logo_landing"></div>
+                <p>홈페이지는 만 <span class="red">19세 이상</span>만 이용이 가능합니다.</p>
+                <a href="#" class="close_alert">닫기</a>
+            </content>
+            <!-- e.landing_inner_box -->
+        </section>
+        <!-- e.landing -->
+    </div>
+</body>
+</html>

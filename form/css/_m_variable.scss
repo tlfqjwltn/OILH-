@@ -1,0 +1,81 @@
+/* KJS 210401 */
+
+//font
+
+@font-face {
+    font-family: "NanumSquareR";
+    src: url(../../form/font/NanumSquareR.ttf);
+}
+@font-face {
+    font-family: "NanumSquareB";
+    src: url(../../form/font/NanumSquareB.ttf);
+}
+
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'GmarketSansBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+$titleFont : 'gmarketSansB';
+$contentFont : 'NanumSquareR';
+
+$fzTit50 : 3.125rem;
+$fzTit32 : 2rem;
+$fzTit24 : 1.5rem;
+$fzsubTit20 : 1.25rem;
+$fz22 : 1.375rem;
+$fz18 : 1.125rem;
+$fzsub14 : 0.875rem;
+$fzfooter12 :0.75rem;
+
+//margin/padding
+
+$mp10 : 0.625rem;
+$mp15 : 0.9375rem;
+$mp20 : 1.25rem;
+$mp30 : 1.875rem;
+$mp40 : 2.5rem;
+$mp50 : 3.125rem;
+$mp60 : 3.75rem;
+$mp65 : 4.063rem;
+$mp70 : 4.375rem;
+$mp80 : 5rem;
+$mp100 : 6.25rem;
+$mp200 : 12.5rem;
+
+//letterSpace
+
+$letterSpace5: 0.313rem;
+
+//size
+
+$mainWid : 84.38rem;
+$half_mainWidth : 42.19rem;
+$headerWid : 6.25rem;
+
+//color
+
+$fontBlk : #333;
+$fontWhite : #fff;
+$fontGray : #555;
+
+$white : #f7f7f7;
+$navy : #3D405B;
+$red : #ff6550;
+$yellow : #ffc776;
+$subBg : #f7f7f7;
+
+$borderWhite : #aaa;
+$borderGray : #555;
+
+$mlightGray : #ddd;
+$mGray : #999;
+$mfont : #555;

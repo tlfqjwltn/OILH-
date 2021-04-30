@@ -1,0 +1,18 @@
+// KJS 210407
+
+#header{width: 100px;height: 100vh;position: absolute;left: 0;top: 0;background: #fff;z-index: 10;
+    .header_logo{background-image: url(../img/index/logo_90x41.svg);width: 90px;height: 41px;margin-top: 50px;position: absolute;left: 50%;margin-left: -45px;}
+    .gnb_left{position: absolute; bottom: 70px;left: 50%;margin-left: -8px;
+        li{margin-top: 30px;
+            a{display: block;}
+            &:nth-child(1) a{width: 17px;height: 54px;background-image: url(../img/index/btn_gnbHome_17x54@2x.png);background-size: contain;}
+            &:nth-child(2) a{width: 17px;height: 60px;background-image: url(../img/index/btn_gnb_Brand_17x60@2x.png);background-size: contain;}
+            &:nth-child(3) a{width: 17px;height: 77px;background-image: url(../img/index/btn_gnbProduct_17x77@2x.png);background-size: contain;}
+            &:nth-child(4) a{width: 17px;height: 58px;background-image: url(../img/index/btn_gnbEvent_17x58.png);background-size: contain;}
+            &:nth-child(5) a{width: 17px;height: 81px;background-image: url(../img/index/btn_gnbSubscribe_17x81@2x.png);background-size: contain;}
+            &:nth-child(6) a{width: 17px;height: 98px;background-image: url(../img/index/btn_gnbCommuity_17x98.png);background-size: contain;}
+        }
+    }
+    // e.gnb_left
+}
+// e.header

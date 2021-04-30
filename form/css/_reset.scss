@@ -1,0 +1,110 @@
+@charset "utf-8";
+
+/* reset.scss */
+body{line-height:1;font-family:'NanumSquareR';}
+html, body, div, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, address, dl, dt, dd, ol, ul, li, fieldset, form, legend, table, caption, tbody, tfoot, thead, tr, th, td, input, select, textarea{margin:0;padding:0;border:0;color:#333}
+h1, h2, h3, h4, h5, h6{font-size:100%;font-family:'gmarketSansB';}
+img, fieldset{border:0px;vertical-align:top}
+table{border-collapse:collapse;border-spacing:0}
+ul, ol, li{list-style:none}
+address, em{font-style:normal}
+li img, object{vertical-align:top}
+input, select, textarea, form img{vertical-align:middle}
+a{outline:0; text-decoration:none; border:none;color:#333}
+
+.noMargin {margin:0}
+header, section, footer, aside, nav, main, article, figure{display: block}
+.floatClear:after{content:'';display:block;clear:both}
+.hidden{display:none}
+.blind{display:block;text-indent:-2000px;overflow:hidden}
+
+//font
+
+/*
+ * Nanum Square
+ */
+@font-face {
+    font-family: 'NanumSquareB';
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+    src: url(../form//font/NanumSquareB.woff2) format('woff2'),
+        url(../form//font/NanumSquareB.woff) format('woff'),
+        url(../form//font/NanumSquareB.ttf) format('truetype'),
+}
+
+@font-face {
+    font-family: 'NanumSquareEB';
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+    src: url(../form//font/NanumSquareEB.woff2) format('woff2'),
+        url(../form//font/NanumSquareEB.woff) format('woff'),
+        url(../form//font/NanumSquareEB.ttf) format('truetype'),
+}
+
+@font-face {
+    font-family: 'NanumSquareR';
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+    src: url(../form//font/NanumSquareR.woff2) format('woff2'),
+        url(../form//font/NanumSquareR.woff) format('woff'),
+        url(../form//font/NanumSquareR.ttf) format('truetype'),
+}
+
+@font-face {
+    font-family: 'NanumSquareL';
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+    src: url(../form//font/NanumSquareL.woff2) format('woff2'),
+        url(../form//font/NanumSquareL.woff) format('woff'),
+        url(../form//font/NanumSquareL.ttf) format('truetype'),
+}
+
+/*
+* Gmarket Sans
+*/
+@font-face {
+    font-family: 'gmarketSansL';
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+    src: url(../form//font/GmarketSansTTFLight.woff2) format('woff2'),
+        url(../form//font/GmarketSansTTFLight.woff) format('woff'),
+        url(../form//font/GmarketSansTTFLight.ttf) format('truetype'),
+}
+
+@font-face {
+    font-family: 'gmarketSansM';
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+    src: url(../form//font/GmarketSansTTFMedium.woff2) format('woff2'),
+        url(../form//font/GmarketSansTTFMedium.woff) format('woff'),
+        url(../form//font/GmarketSansTTFMedium.ttf) format('truetype'),
+}
+ 
+@font-face {
+    font-family: 'gmarketSansB';
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+    src: url(../form//font/GmarketSansTTFBold.woff2) format('woff2'),
+        url(../form//font/GmarketSansTTFBold.woff) format('woff'),
+        url(../form//font/GmarketSansTTFBold.ttf) format('truetype'),
+}
+
+/*
+* Melancoline
+*/
+ @font-face {
+    font-family: 'Melancoline';
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+    src: url(../form/font/Melancoline.woff2) format('woff2'),
+        url(../form//font/Melancoline.woff) format('woff'),
+        url(../form//font/Melancoline.otf) format('opentype'),
+}

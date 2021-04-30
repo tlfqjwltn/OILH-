@@ -1,0 +1,51 @@
+// KJS 210407
+
+#header{width:100px;height:100vh;position:fixed;left:0;top:0;background:#fff;z-index:1000;
+    .header_logo{background-image:url(../img/common/logo_side_60x83.png);background-size:cover; width:60px;height:83px;margin-top:3.125rem;position:absolute;left:50%;margin-left:-30px;cursor:pointer;}
+    .gnb_left{position:absolute;bottom:4.375rem;left:50%;margin-left:-9px;
+        li{margin-top:1.875rem;
+            a{display:block;}
+            &:nth-child(1) a{width: 17px;height: 54px;background-image: url(../img/common/btn_gnbHome_17x54.png);background-size: contain;}
+            &:nth-child(2) a{width: 17px;height: 60px;background-image: url(../img/common/btn_gnb_Brand_17x60.png);background-size: contain;}
+            &:nth-child(3) a{width: 17px;height: 77px;background-image: url(../img/common/btn_gnbProduct_17x77.png);background-size: contain;}
+            &:nth-child(4) a{width: 17px;height: 58px;background-image: url(../img/common/btn_gnbEvent_17x58.png);background-size: contain;}
+            &:nth-child(5) a{width: 17px;height: 81px;background-image: url(../img/common/btn_gnbSubscribe_17x81.png);background-size: contain;}
+            &:nth-child(6) a{width: 17px;height: 98px;background-image: url(../img/common/btn_gnbCommuity_17x98.png);background-size: contain;}
+        }
+    }
+    // e.gnb_left
+}
+// e.header
+#login_out{width:14.63rem;height:42px;position:fixed;top:3.438rem;right:12.5rem;display:inline-block;z-index:1000;
+    .login_out_innder_box{width:100%;height:100%;position:relative;
+        .login{width:18rem;height:42px;overflow: hidden;
+            li{display:inline-block;width:6rem;
+                a{display:block;width:6rem;height:42px;text-align:center;line-height:42px;font-size:1.375rem;; color:#fff;}
+                .login{position:absolute;top:0;left:0;}
+                .join{position:absolute;top:0;left:6rem;}
+                .mypage{position:absolute;top:0;left:12rem;background-image:url(../img/common/mypage_42x42.png);background-size:42px; background-repeat:no-repeat;background-position:top;}
+            }
+        }
+    }
+}
+// e.login_out
+
+#footer{width:100vw;height:18.75rem;background:#dfdfdf;position:relative;
+    #footer_inner_box{display:block;width:84.38rem;;height:100%;margin:0 auto;padding-top:3.125rem;display:flex;
+        .footer_logo{width:13.063rem;height:6rem;background-image: url(../img/common/logo_footer_209x96@2x.png);background-size: cover;}
+        .footer_text{margin-left:2.813rem;width:41.875rem;line-height:1.188rem;
+            li{font-size:1rem;color:#979797;}
+        }
+        .footer_tel{margin-left:6.25rem;font-size:3.125rem;color:#666666;}
+        .footer_line{position:absolute;top:12.063rem;width:84.38rem;height:1px;background:#979797;}
+        .footer_ico{position:absolute;top:14rem;display:flex;
+            li{width:50px;height:50px;margin-right:50px;opacity:.7;}
+            li:nth-child(1){background-image:url(../img/common/award-logo-01.png);background-size:cover;}
+            li:nth-child(2){background-image:url(../img/common/award-logo-02.png);background-size:cover;}
+            li:nth-child(3){background-image:url(../img/common/award-logo-03.png);background-size:cover;}
+            li:nth-child(4){background-image:url(../img/common/award-logo-04.png);background-size:cover;}
+            li:nth-child(5){background-image:url(../img/common/award-logo-05.png);background-size:cover;}
+            li:nth-child(6){background-image:url(../img/common/award-logo-06.png);background-size:cover;}
+        }
+    }
+}

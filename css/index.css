@@ -1,0 +1,266 @@
+/* reset.scss */
+body {
+  line-height: 1;
+  font-family: 'NanumSquareR'; }
+
+html, body, div, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, address, dl, dt, dd, ol, ul, li, fieldset, form, legend, table, caption, tbody, tfoot, thead, tr, th, td, input, select, textarea {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  color: #333; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%;
+  font-family: 'gmarketSansB'; }
+
+img, fieldset {
+  border: 0px;
+  vertical-align: top; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+ul, ol, li {
+  list-style: none; }
+
+address, em {
+  font-style: normal; }
+
+li img, object {
+  vertical-align: top; }
+
+input, select, textarea, form img {
+  vertical-align: middle; }
+
+a {
+  outline: 0;
+  text-decoration: none;
+  border: none;
+  color: #333; }
+
+.noMargin {
+  margin: 0; }
+
+header, section, footer, aside, nav, main, article, figure {
+  display: block; }
+
+.floatClear:after {
+  content: '';
+  display: block;
+  clear: both; }
+
+.hidden {
+  display: none; }
+
+.blind {
+  display: block;
+  text-indent: -2000px;
+  overflow: hidden; }
+
+/*
+ * Nanum Square
+ */
+@font-face {
+  font-family: 'NanumSquareB';
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+  src: url(../form//font/NanumSquareB.woff2) format("woff2"), url(../form//font/NanumSquareB.woff) format("woff"), url(../form//font/NanumSquareB.ttf) format("truetype"); }
+@font-face {
+  font-family: 'NanumSquareEB';
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+  src: url(../form//font/NanumSquareEB.woff2) format("woff2"), url(../form//font/NanumSquareEB.woff) format("woff"), url(../form//font/NanumSquareEB.ttf) format("truetype"); }
+@font-face {
+  font-family: 'NanumSquareR';
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  src: url(../form//font/NanumSquareR.woff2) format("woff2"), url(../form//font/NanumSquareR.woff) format("woff"), url(../form//font/NanumSquareR.ttf) format("truetype"); }
+@font-face {
+  font-family: 'NanumSquareL';
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+  src: url(../form//font/NanumSquareL.woff2) format("woff2"), url(../form//font/NanumSquareL.woff) format("woff"), url(../form//font/NanumSquareL.ttf) format("truetype"); }
+/*
+* Gmarket Sans
+*/
+@font-face {
+  font-family: 'gmarketSansL';
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+  src: url(../form//font/GmarketSansTTFLight.woff2) format("woff2"), url(../form//font/GmarketSansTTFLight.woff) format("woff"), url(../form//font/GmarketSansTTFLight.ttf) format("truetype"); }
+@font-face {
+  font-family: 'gmarketSansM';
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+  src: url(../form//font/GmarketSansTTFMedium.woff2) format("woff2"), url(../form//font/GmarketSansTTFMedium.woff) format("woff"), url(../form//font/GmarketSansTTFMedium.ttf) format("truetype"); }
+@font-face {
+  font-family: 'gmarketSansB';
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+  src: url(../form//font/GmarketSansTTFBold.woff2) format("woff2"), url(../form//font/GmarketSansTTFBold.woff) format("woff"), url(../form//font/GmarketSansTTFBold.ttf) format("truetype"); }
+/*
+* Melancoline
+*/
+@font-face {
+  font-family: 'Melancoline';
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  src: url(../form/font/Melancoline.woff2) format("woff2"), url(../form//font/Melancoline.woff) format("woff"), url(../form//font/Melancoline.otf) format("opentype"); }
+/* KJS 210401 */
+@font-face {
+  font-family: "NanumSquareR";
+  src: url(../form//form/font/NanumSquareR.ttf); }
+@font-face {
+  font-family: "NanumSquareB";
+  src: url(../form//form/font/NanumSquareB.ttf); }
+@font-face {
+  font-family: 'GmarketSansMedium';
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'GmarketSansBold';
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+#wrap {
+  width: 100vw;
+  height: 100vh;
+  position: relative; }
+
+#landing {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(../img/index/landing_bg-image.png);
+  background-size: 100% 100%;
+  background-position: center; }
+
+#landing_inner_box {
+  width: 84.38rem;
+  height: 50rem;
+  background: #ffffff70;
+  margin: 0 auto;
+  display: block;
+  position: absolute;
+  top: 50%;
+  margin-top: -25rem;
+  left: 50%;
+  margin-left: -42.19rem; }
+
+.l_form > fieldset .l_form {
+  text-align: center; }
+.l_form > fieldset .l_tit {
+  font-size: 3.75rem;
+  font-family: Melancoline;
+  text-align: center;
+  padding-top: 10rem;
+  color: #555; }
+.l_form > fieldset .l_txt {
+  font-size: 1.5rem;
+  color: #555;
+  text-align: center;
+  margin-top: 2rem; }
+.l_form > fieldset #year_box {
+  width: 12.5rem;
+  height: 3.125rem;
+  position: absolute;
+  left: 25.63rem;
+  top: 23.13rem;
+  border: 1px solid #3D405B;
+  padding-left: 0.625rem; }
+.l_form > fieldset #month_box {
+  width: 8.438rem;
+  height: 3.125rem;
+  position: absolute;
+  left: 40rem;
+  top: 23.13rem;
+  border: 1px solid #3D405B;
+  padding-left: 0.625rem; }
+.l_form > fieldset #day_box {
+  width: 8.438rem;
+  height: 3.125rem;
+  position: absolute;
+  left: 50.63rem;
+  top: 23.13rem;
+  border: 1px solid #3D405B;
+  padding-left: 0.625rem; }
+.l_form > fieldset .l_check {
+  display: flex;
+  position: absolute;
+  left: 50%;
+  margin-left: -14.5rem;
+  top: 30.44rem;
+  font-size: 1.125rem; }
+  .l_form > fieldset .l_check #l_check_box {
+    width: 0.9375rem;
+    height: 0.9375rem;
+    position: absolute;
+    top: 0.625rem; }
+  .l_form > fieldset .l_check p {
+    margin-left: 1.875rem;
+    color: #555;
+    line-height: 1.5rem; }
+.l_form > fieldset .landing_btn {
+  display: block;
+  width: 11.25rem;
+  height: 3.125rem;
+  position: absolute;
+  top: 39.38rem;
+  left: 50%;
+  margin-left: -5.625rem;
+  border-radius: 0.3125rem;
+  border: none;
+  background: #3D405B;
+  color: #fff;
+  font-size: 1.125rem;
+  text-align: center;
+  line-height: 3.125rem; }
+
+.alert {
+  position: absolute;
+  top: 400px;
+  left: 50%;
+  margin-left: -250px;
+  width: 500px;
+  height: 200px;
+  text-align: center;
+  background: #ffffffdd;
+  border-radius: 6px;
+  border: 2px solid #3D405B; }
+  .alert div {
+    width: 124px;
+    height: 57px;
+    margin: 0 auto;
+    margin-top: 25px;
+    background: url(../img/common/logo_navy_122x57.png);
+    background-size: cover; }
+  .alert p {
+    margin-top: 20px;
+    font-size: 1.25rem;
+    font-family: gmarketSansM; }
+    .alert p .red {
+      color: #ff6550;
+      font-weight: bold; }
+  .alert .close_alert {
+    display: block;
+    width: 11.25rem;
+    height: 3.125rem;
+    margin: 20px auto 0;
+    border-radius: 6px;
+    border: none;
+    background: #3D405B;
+    color: #fff;
+    font-size: 1.125rem;
+    text-align: center;
+    line-height: 3.125rem; }
+
+/*# sourceMappingURL=index.css.map */
